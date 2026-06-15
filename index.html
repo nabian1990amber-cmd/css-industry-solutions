@@ -334,7 +334,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei
     <div class="arch-diagram">
       <div class="arch-block"><div class="arch-title">讲师端</div><div class="arch-sub">直播 SDK / Web 推流<br>OBS / 桌面客户端</div></div>
       <span class="arch-arrow">→</span>
-      <div class="arch-block css"><div class="arch-title">云端处理</div><div class="arch-sub">快直播 · 直播字幕 · 云端录制 · 动效贴片<br>时移回看 · 智能摘要 · 直播审核</div></div>
+      <div class="arch-block css"><div class="arch-title">云端处理</div><div class="arch-sub">快直播 · 直播字幕 · 云端录制 · 直播时移 · 动效贴片<br>时移回看 · 智能摘要 · 直播审核</div></div>
       <span class="arch-arrow">→</span>
       <div class="arch-block"><div class="arch-title">学员端</div><div class="arch-sub">App / H5 / 微信小程序<br>多端实时互动</div></div>
     </div>
@@ -372,7 +372,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei
     <div class="ability-list">
       <div class="ability-card"><h5>直播字幕 <span class="ai-tag">AI</span></h5><p>语音实时转字幕，支持多语言互译，提升听课效率与无障碍体验</p><button class="btn-config">开始配置</button></div>
       <div class="ability-card"><h5>云端录制 <span class="ai-tag">AI</span></h5><p>课程全程录制，按章节自动切片，沉淀课件资产，支持回看复习</p><button class="btn-config">开始配置</button></div>
-      <div class="ability-card"><h5>时移回看</h5><p>支持任意时间点回看课程，灵活满足不同学员的学习节奏</p><button class="btn-config">开始配置</button></div>
+      <div class="ability-card"><h5>直播时移</h5><p>支持任意时间点回看课程，灵活满足不同学员的学习节奏</p><button class="btn-config">开始配置</button></div>
       <div class="ability-card"><h5>智能摘要 <span class="ai-tag">AI</span></h5><p>自动生成课程章节目录与知识点提炼，提升回看效率</p><button class="btn-config">开始配置</button></div>
       <div class="ability-card"><h5>动效贴片</h5><p>实时叠加教师介绍、知识重点、随堂作业等教学信息</p><button class="btn-config">开始配置</button></div>
       <div class="ability-card"><h5>直播审核 <span class="ai-tag">AI</span></h5><p>课堂内容自动审核，保障教学合规</p><button class="btn-config">开始配置</button></div>
@@ -674,7 +674,7 @@ const tplMap={
 const featureMap={
   'ec-tpl':['云端录制 + 热力分析','字幕 & 同传（AI 多语言）','高光切片（精彩片段）'],
   'sp-tpl':['极速高清转码（H.264_1080P）','云端录制','直播时移','直播字幕（AI 多语言）','高光切片（赛后自动切片）','智能摘要（AI 节点提炼）','动效贴片（默认模板）','直播垫片'],
-  'edu-tpl':['直播字幕（AI 多语言）','云端录制（按章节切片）','时移回看','智能摘要（AI 知识点提炼）','动效贴片（教学信息叠加）','直播审核（AI 内容合规）'],
+  'edu-tpl':['直播字幕（AI 多语言）','云端录制（按章节切片）','直播时移','智能摘要（AI 知识点提炼）','动效贴片（教学信息叠加）','直播审核（AI 内容合规）'],
   'ent-tpl':['极速高清转码（H.264_1080P）','云端录制（按议程切片）','直播时移','字幕 & 同传（AI 多语言）','智能摘要（AI 章节提炼）','高光切片（精彩片段）','动效贴片（企业 Logo）','直播垫片'],
   'show-tpl':['直播审核（AI 智能鉴黄）','云端录制（违规追溯）','直播截图（自动截取）'],
   'media-tpl':['字幕 & 同传（AI 多语言）','直播时移','直播自适应码率','直播垫片','动效贴片（台标/字幕条）']
